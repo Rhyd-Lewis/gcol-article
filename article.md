@@ -31,8 +31,9 @@ some pairs of nodes are connected by *edges*. Given any graph,
     <img src="images/dodecahedron-node-sq.png">
     <img src="images/dodecahedron-edge-sq.png">
     <img src="images/dodecahedron-face-sq.png">
-    <p style="font-size:0.9em; font-style:italic; color:#555;">Optimal node, edge, and face colorings (respectively) of the dodecahedral graph.</p>
 </div>
+
+*Optimal node, edge, and face colorings (respectively) of the dodecahedral graph.*
 
 Examples of these concepts are shown in the images above. Observe that face
 colorings require nodes to be arranged on the plane so that none of the
@@ -112,14 +113,16 @@ nodes are close, unrelated nodes are separated, and few edges intersect.
     <img src="images/random-random-node-sq.png">
     <img src="images/random-spring-node-sq.png">
     <img src="images/random-circle-node-sq.png">
-    <p>*Four ways of drawing the same node coloring.*</p>
+    <img src="images/random-multipartite-node-sq.png">
 </div>
+
+*Four ways of drawing the same node coloring.*
 
 The colorings in the images above demonstrate the effects of different node
 positioning schemes. The first example uses randomly selected positions,
 which seems to give a rather cluttered diagram. The second example uses
 a force-directed method (specifically, NetworkX's
-`spring_layout()`{.python} routine), resulting in a more logical layout
+`spring_layout()` routine), resulting in a more logical layout
 in which communities and structure are more apparent. GCol also allows
 nodes to be positioned based on their colors. The third image positions
 the nodes on the circumference of a circle, putting nodes of the same
@@ -142,11 +145,12 @@ show graphs that require three colors.
     <img src="images/triangle12x12-node-sq.png"> 
     <img src="images/HoG-1347-node-sq.png">
     <img src="images/HoG-51392-node-sq.png">
-    <p>*Optimal node colorings of, respectively, a binary tree, a
+</div>
+
+*Optimal node colorings of, respectively, a binary tree, a
 hexagonal lattice, the great rhombicosidodecahedral graph, a triangular
 lattice, the Thomassen graph, and the great rhombicosidodecahedral line
-graph.*</p>
-</div>
+graph.*
 
 ---
 
@@ -166,10 +170,11 @@ $G$, no more than $\Delta(G)+1$ colors are ever needed.
     <img src="images/complete6-edge-sq.png">
     <img src="images/HoG-1347-edge-sq.png">
     <img src="images/HoG-1122-edge-sq.png">
-    <p>*Optimal edge colorings for, respectively, a complete graph
-on six nodes, the Thomassen graph, and the great rhombicosidodecahedral
-graph.*</p>
 </div>
+
+*Optimal edge colorings for, respectively, a complete graph
+on six nodes, the Thomassen graph, and the great rhombicosidodecahedral
+graph.*
 
 Edge coloring has applications in the construction of sports leagues,
 where a set of teams are required to play each other over a series of
@@ -190,10 +195,9 @@ alternative way of specifying routes between locations in street maps.
 <div style="text-align:center;">
     <img src="images/cardiffstreets-edge-sq.png">
     <img src="images/hex20x25-edge-sq.png">
-    <img src="images/dodecahedron-face-sq.png">
-    <p>*Optimal edge colorings of the street map of central Cardiff,
-Wales, and the hexagonal lattice graph.*</p>
 </div>
+
+*Optimal edge colorings of the street map of central Cardiff, Wales, and the hexagonal lattice graph.*
 
 ---
 
@@ -210,10 +214,11 @@ for it to be formally proved.
     <img src="images/HoG-1122-face-sq.png">
     <img src="images/HoG-1347-face-sq.png">
     <img src="images/france-face-sq.png">
-    <p>*Optimal face colorings of, respectively, the great
-rhombicosidodecahedral graph, the Thomassen graph, and a map of the
-administrative departments of France.*</p>
 </div>
+
+*Optimal face colorings of, respectively, the great
+rhombicosidodecahedral graph, the Thomassen graph, and a map of the
+administrative departments of France.*
 
 The above images show face colorings of three graphs. Here,
 nodes should be assumed wherever edges are seen to meet. In this figure,
@@ -235,12 +240,13 @@ using two colors.
     <img src="images/sierpinski4-face-sq.png">
     <img src="images/HoG-1317-face-sq.png">
     <img src="images/rectangles-face-sq.png">
-    <p>*Two colors are always sufficient in face colorings of
+</div>
+
+*Two colors are always sufficient in face colorings of
 Eulerian planar graphs. The first example shows the Sierpinski triangle
 at four levels of recursion; the second shows the small
 rhombicosidodecahedral graph; the third example is formed by overlaying
-an arbitrary set of closed curves (rectangles here).*</p>
-</div>
+an arbitrary set of closed curves (rectangles here).*
 
 Examples of this are shown above where, as required, all nodes have an even
 degree. Practical examples of this theorem can be seen in chess boards,
@@ -259,9 +265,9 @@ Here, the four colours are distributed in a less regular manner.
 <div style="text-align:center;">
     <img src="images/hex20x25-face-sq.png">
     <img src="images/hattile16x16-face-sq.png">
-    <p>*Optimal face colorings of, respectively, a hexagonal tiling
-pattern and the aperiodic pattern formed by the "hat" tile.*</p>
 </div>
+
+*Optimal face colorings of, respectively, a hexagonal tiling pattern and the aperiodic pattern formed by the "hat" tile.*
 
 Our final example comes from an infamous [spoof article](http://www.pgccphy.net/1570/sciam-april-fools-1975.pdf) 
 from a 1975 issue of *Scientific American*. One of the false claims made in this article was that a graph had been discovered whose faces needed
@@ -270,8 +276,9 @@ along with a four coloring.
 
 <div style="text-align:center;">
     <img src="mcgregorgraph-face-sq.png">
-    <p>*An optimal coloring the graph shown in an April Fool’s article of Scientific American in 1975.*</p>
 </div>
+
+*An optimal coloring the graph shown in an April Fool’s article of Scientific American in 1975.*
 
 ---
 
@@ -284,6 +291,7 @@ coloring, precoloring, list coloring, and maximum independent set
 identification. All source code used to generate the figures can be found [here](https://zenodo.org/records/18713618).
 
 An extended version of this article can be found [here](https://arxiv.org/pdf/2602.18246v1).
+
 
 
 
