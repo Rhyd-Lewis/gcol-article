@@ -275,7 +275,7 @@ at least five colors, therefore disproving the four color theorem. This graph is
 along with a four coloring. 
 
 <div style="text-align:center;">
-    <img src="mcgregorgraph-face-sq.png">
+    <img src="images/mcgregorgraph-face-sq.png">
 </div>
 
 *An optimal coloring the graph shown in an April Fool’s article of Scientific American in 1975.*
@@ -291,6 +291,7 @@ coloring, precoloring, list coloring, and maximum independent set
 identification. All source code used to generate the figures can be found [here](https://zenodo.org/records/18713618).
 
 An extended version of this article can be found [here](https://arxiv.org/pdf/2602.18246v1).
+
 
 
 
