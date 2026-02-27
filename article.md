@@ -28,9 +28,9 @@ some pairs of nodes are connected by *edges*. Given any graph,
     that faces with common boundaries have different colors.
 
 <figure>
-<embed src="dodecahedron-node-sq.png" /> 
-<embed src="dodecahedron-edge-sq.png" /> 
-<embed src="dodecahedron-face-sq.png" />
+<embed src="images/dodecahedron-node-sq.png" /> 
+<embed src="images/dodecahedron-edge-sq.png" /> 
+<embed src="images/dodecahedron-face-sq.png" />
 <figcaption>Optimal node, edge, and face colorings (respectively) of the
 dodecahedral graph.</figcaption>
 </figure>
@@ -110,10 +110,10 @@ is to create an aesthetically pleasing layout where groups of related
 nodes are close, unrelated nodes are separated, and few edges intersect.
 
 <figure>
-<embed src="random-random-node-sq.png" /> 
-<embed src="random-spring-node-sq.png" /> 
-<embed src="random-circle-node-sq.png" /> 
-<embed src="random-multipartite-node-sq.png" />
+<embed src="images/random-random-node-sq.png" /> 
+<embed src="images/random-spring-node-sq.png" /> 
+<embed src="images/random-circle-node-sq.png" /> 
+<embed src="images/random-multipartite-node-sq.png" />
 <figcaption>Four ways of drawing the same node coloring.</figcaption>
 </figure>
 
@@ -138,12 +138,12 @@ bipartite graphs (graphs that only need two colors); the remainder
 show graphs that require three colors.
 
 <figure>
-<embed src="btree256-node-sq.png" />
-<embed src="hex12x12-node-sq.png" />
-<embed src="HoG-1122-node-sq.png" />
-<embed src="triangle12x12-node-sq.png" /> 
-<embed src="HoG-1347-node-sq.png" />
-<embed src="HoG-51392-node-sq.png" />
+<embed src="images/btree256-node-sq.png" />
+<embed src="images/hex12x12-node-sq.png" />
+<embed src="images/HoG-1122-node-sq.png" />
+<embed src="images/triangle12x12-node-sq.png" /> 
+<embed src="images/HoG-1347-node-sq.png" />
+<embed src="images/HoG-51392-node-sq.png" />
 <figcaption>Optimal node colorings of, respectively, a binary tree, a
 hexagonal lattice, the great rhombicosidodecahedral graph, a triangular
 lattice, the Thomassen graph, and the great rhombicosidodecahedral line
@@ -165,9 +165,9 @@ in $G$. For bipartite graphs,
 $G$, no more than $\Delta(G)+1$ colors are ever needed.
 
 <figure>
-<embed src="complete6-edge-sq.png" />
-<embed src="HoG-1347-edge-sq.png" />
-<embed src="HoG-1122-edge-sq.png" />
+<embed src="images/complete6-edge-sq.png" />
+<embed src="images/HoG-1347-edge-sq.png" />
+<embed src="images/HoG-1122-edge-sq.png" />
 <figcaption>Optimal edge colorings for, respectively, a complete graph
 on six nodes, the Thomassen graph, and the great rhombicosidodecahedral
 graph.</figcaption>
@@ -190,8 +190,8 @@ specify the order in which edges are then followed. This provides an
 alternative way of specifying routes between locations in street maps.
 
 <figure>
-<embed src="cardiffstreets-edge-sq.png" />
-<embed src="hex20x25-edge-sq.png" />
+<embed src="images/cardiffstreets-edge-sq.png" />
+<embed src="images/hex20x25-edge-sq.png" />
 <figcaption>Optimal edge colorings of the street map of central Cardiff,
 Wales (left) and the hexagonal lattice graph (right).</figcaption>
 </figure>
@@ -208,9 +208,9 @@ counties of England; however, it would take over 100 years of research
 for it to be formally proved.
 
 <figure>
-<embed src="HoG-1122-face-sq.png" />
-<embed src="HoG-1347-face-sq.png" />
-<embed src="france-face-sq.png" />
+<embed src="images/HoG-1122-face-sq.png" />
+<embed src="images/HoG-1347-face-sq.png" />
+<embed src="images/france-face-sq.png" />
 <figcaption>Optimal face colorings of, respectively, the great
 rhombicosidodecahedral graph, the Thomassen graph, and a map of the
 administrative departments of France.</figcaption>
@@ -233,9 +233,9 @@ consequently, the faces of Eulerian planar graphs can always be colored
 using two colors. 
 
 <figure>
-<embed src="sierpinski4-face-sq.png" />
-<embed src="HoG-1317-face-sq.png" />
-<embed src="rectangles-face-sq.png" />
+<embed src="images/sierpinski4-face-sq.png" />
+<embed src="images/HoG-1317-face-sq.png" />
+<embed src="images/rectangles-face-sq.png" />
 <figcaption>Two colors are always sufficient in face colorings of
 Eulerian planar graphs. The first example shows the Sierpinski triangle
 at four levels of recursion; the second shows the small
@@ -258,8 +258,8 @@ discovered [aperiodic tiling pattern](https://www.maths.cam.ac.uk/features/tip-h
 Here, the four colours are distributed in a less regular manner.
 
 <figure>
-<embed src="hex20x25-face-sq.png" />
-<embed src="hattile16x16-face-sq.png" />
+<embed src="images/hex20x25-face-sq.png" />
+<embed src="images/hattile16x16-face-sq.png" />
 <figcaption>Optimal face colorings of, respectively, a hexagonal tiling
 pattern and the aperiodic pattern formed by the "hat" tile.</figcaption>
 </figure>
@@ -270,7 +270,6 @@ at least five colors, therefore disproving the four color theorem. This graph is
 along with a four coloring. 
 
 <figure>
-<embed src="veronoi100-face-sq-cropped.png" />
 <embed src="mcgregorgraph-face-sq.png" />
 <figcaption>An optimal coloring the graph shown in an April Fool’s article of <em>Scientific
 American</em> in 1975.</figcaption>
@@ -285,4 +284,5 @@ of graph coloring, making use of the open-source Python library [GCol](https://g
 The library also includes methods for equitable coloring, weighted
 coloring, precoloring, list coloring, and maximum independent set
 identification. All source code used to generate the figures can be found [here](https://zenodo.org/records/18713618).
+
 An extended version of this article can be found [here](https://arxiv.org/pdf/2602.18246v1).
