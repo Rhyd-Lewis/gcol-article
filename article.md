@@ -31,7 +31,7 @@ some pairs of nodes are connected by *edges*. Given any graph,
     <img src="images/dodecahedron-node-sq.png">
     <img src="images/dodecahedron-edge-sq.png">
     <img src="images/dodecahedron-face-sq.png">
-    <p>*Optimal node, edge, and face colorings (respectively) of the dodecahedral graph.*</p>
+    <p style="font-size:0.9em; font-style:italic; color:#555;">Optimal node, edge, and face colorings (respectively) of the dodecahedral graph.</p>
 </div>
 
 Examples of these concepts are shown in the images above. Observe that face
@@ -284,6 +284,7 @@ coloring, precoloring, list coloring, and maximum independent set
 identification. All source code used to generate the figures can be found [here](https://zenodo.org/records/18713618).
 
 An extended version of this article can be found [here](https://arxiv.org/pdf/2602.18246v1).
+
 
 
 
